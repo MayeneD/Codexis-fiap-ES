@@ -26,3 +26,4 @@ def login():
 def logout():
     remove_logged_user()
     return jsonify({"mensagem": "Logout realizado"}), 200
+    
